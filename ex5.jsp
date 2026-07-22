@@ -26,8 +26,8 @@ int item_2_count = 5;
 <h1>쇼핑몰 장바구니</h1>
 <%
 int item_1_total = 0;
-for(  코드를 완성하시오   ) {
-코드를 완성하시오
+for( int i=1;i<=item_1_count;i++ ) {
+item_1_total += item_1_price;
 %>
 <%=item_1_name%>: <%=i%>개  <%=item_1_total%>원
 <br>
@@ -37,10 +37,10 @@ for(  코드를 완성하시오   ) {
 <hr>
 <%
 int item_2_total = 0;
-for(   코드를 완성하시오   ) {
-코드를 완성하시오
+for( int j=1;j<=item_2_count;j++) {
+item_2_total += item_2_price;
 %>
-<%=item_2_name%>: <%=i%>개  <%=item_2_total%>원
+<%=item_2_name%>: <%=j%>개  <%=item_2_total%>원
 <br>
 <%
 }
